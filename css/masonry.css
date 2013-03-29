@@ -1,0 +1,56 @@
+/**** Demos ****/
+
+#container {
+	margin-left:0px
+  background: #FFF;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  clear: both;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+
+}
+
+.centered { margin: 0 auto; }
+
+.boxi {
+  margin: 5px;
+  padding: 5px;
+  /*background: #f0efee;*/
+  background:#FFF;
+  font-size: 12px;
+  color:#003344;
+  float: left;
+  /*border: thin solid #CCC;*/
+  /*-moz-box-shadow: 0 0 1x 1px #888;
+  -webkit-box-shadow: 0 0 1px 1px #888;
+   box-shadow: 0 0 1px 1px #888;*/
+   box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+  -moz-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+  margin-top:0px;
+}
+
+.boxi img,
+#tumblelog img {
+  display: block;
+  width: 100%;
+}
+
+.rtl .boxi {
+  float: right;
+  text-align: right; 
+  direction: rtl;
+}
+
+
+
+.col3 {width: 210px; }
+/*CSS pseudo selector */
+
+/**** Clearfix ****/
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
